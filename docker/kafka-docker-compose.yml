@@ -1,10 +1,5 @@
 version: '3'
 services:
-  vote-microservice:
-    image: vote-microservice
-    depends_on:
-      - kafka
-    container_name: vote-microservice
 
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
