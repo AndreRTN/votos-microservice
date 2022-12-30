@@ -9,7 +9,7 @@ API para validar cpf e tópico kafka para resultado das votações
 
 ## Para rodar o microservice responsável por validar o cpf e consumir o tópico de resultados 
  
-Entre na pasta do projeto e em seguida na pasta do docker, digite "docker-compose -f kafka-docker-compose.yml -p kafka up"
+Entre na pasta do projeto e em seguida na pasta do docker, digite "docker-compose -f kafka-docker-compose.yml -p kafka up -d"
 Você terá o kafka rodando e a interface do kafdrop em localhost:19000
 
 Agora siga os mesmos passos do projeto anterior, digite mvn package no terminal, irá gerar um .jar na pasta target,
