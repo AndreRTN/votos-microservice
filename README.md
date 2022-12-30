@@ -14,5 +14,5 @@ Entre na pasta do projeto e em seguida na pasta do docker, digite "docker-compos
 Você terá o kafka rodando e a interface do kafdrop em localhost:19000
 
 Agora siga os mesmos passos do projeto anterior, digite mvn package no terminal, irá gerar um .jar na pasta target,
-" java -jar .\target\votos-microservice-0.0.1-SNAPSHOT.jar" para executar o microservice no localhost:8086 
+"java -jar .\target\votos-microservice-0.0.1-SNAPSHOT.jar" para executar o microservice no localhost:8086 
 (Necessário ter o container do kafka em execução)
