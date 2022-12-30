@@ -1,6 +1,7 @@
 package com.desafio.votosmicroservice.pojo;
 
 
+import com.desafio.votosmicroservice.types.VoteResultType;
 import lombok.Data;
 import lombok.ToString;
 
@@ -11,4 +12,5 @@ public class RulingResultKafkaMessage {
     private Long id;
     private Long positiveVote;
     private Long negativeVote;
+    private VoteResultType result;
 }

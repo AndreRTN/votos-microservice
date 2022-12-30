@@ -1,5 +1,11 @@
 version: '3'
 services:
+  vote-microservice:
+    image: vote-microservice
+    depends_on:
+      - kafka
+    container_name: vote-microservice
+
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
     networks:
@@ -15,7 +21,7 @@ services:
     depends_on:
       - zookeeper
     ports:
-      - 9092:9092
+      - "9092:9092"
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
