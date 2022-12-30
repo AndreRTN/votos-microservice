@@ -4,6 +4,7 @@ API para validar cpf e tópico kafka para resultado das votações
 ## Requisitos:
 
 - Docker (Se não possuir o docker precisará baixar as dependências contidas nos arquivos compose.yml e configurar manualmente)
+- Maven (ou pode baixar o .jar diretamente)
 
 - JDK 17
 
